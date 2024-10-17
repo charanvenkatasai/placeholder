@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+* {
+  font-family: "Moderustic", sans-serif;
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+header {
+  margin: 70px;
+}
+header a {
+  float: right;
+  margin-right: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+#sign_up {
+  color: whitesmoke;
+  background-color: black;
+}
+#log_in {
+  color: black;
+  background: white;
+}
+
+#main #main-img {
+  height: 50%;
+  width: 50%;
+  float: right;
+  margin-right: 35px;
+  box-shadow: 5px 5px 6px 5px #ff6736;
+  /* border: 10px solid #ff6736; */
+  border-radius: 10px;
+  /* border-top-left-radius: 10px; */
+  /* border-bottom-right-radius: 10px; */
+}
+
+#main {
+  margin: 70px;
+}
+#main strong {
+  font-size: 50px;
+  left: 40px;
+  text-align: left;
+}
+
+#search {
+  height: 50px;
+  /* border: 1px solid rgb(194, 188, 188); */
+  opacity: 0.5px;
+  width: 250px;
+  padding: 10px;
+  border-radius: 5px;
+}
+#search input {
+  position: absolute;
+  height: 60px;
+  width: 420px;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  padding: 10px; /* text-align: center; */
+}
+#search #se-bt {
+  position: relative;
+  border: 1px solid #ff6736;
+  background: #ff6736;
+   border-radius: 5px;
+  width: 70px;
+  left: 340px;
+  /* top: 10px; */
+  color: aliceblue;
+}
+#acc-bui img {
+  height: 40px;
+  width: 70px;
+  margin-top: 30px;
+}
+
+#acc-bui {
+  display: flex;
+}
+#acc-bui span {
+  padding-top: 10px;
+  margin-top: 30px;
+}
+
+#sec-2 {
+  width: 100%;
+  margin-top: 180px;
+  background-color: #f7f7f7;
+  border: 1px solid whitesmoke;
+  padding: 25px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+#sec-3 {
+  margin: 70px;
+}
+#sec-3 h1 {
+  font-size: 30px;
+}
+#sec-3 img {
+  height: 300px;
+  width: 350px;
+  float: right;
+}
+
+#sec-4 pre {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 60px;
+  margin-right: 60px;
+  color: #bab5b5;
+}
+#sec-4 p {
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 380px;
+  margin-right: 60px;
+}
+
+#sec-4 {
+  b {
+    color: rgb(133, 130, 130);
+  }
+}
+
+footer {
+  p {
+    margin-left: 70px;
+    margin-top: -35px;
+  }
+}
+footer {
+  background-color: #e7ede3;
+  bottom: 0%;
+  display: flex;
+}
+footer #useful-links {
+  left: 50px;
+  margin-top: 35px;
+}
+
+footer pre {
+  font-family: serif;
+}
+
+footer pre a {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  text-decoration: none;
+}
